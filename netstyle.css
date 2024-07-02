@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+/**header**/
+.hero_image{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.87) 0, rgba(0, 0, 0, 0.699) 60%, rgba(0, 0, 0, 0.815) 100%),url(hero_image.jpg);
+    height: 680px;
+    background-size: cover;
+    display: block;
+    justify-content:center;
+    align-items: center;
+}
+.hero_sec{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div1{
+    background-image: url("logo.png");
+    height: 110%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: left 10px;
+    padding-left: 10px;
+}
+.options{
+    display: flex;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 130px;
+    height: 35px;
+    border: 0.8px solid rgba(204, 190, 190, 0.699);
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+button{
+    width: 78px;
+    height: 35px;
+    border: 0.8px solid transparent;
+    background-color: rgba(250, 24, 24, 0.884);
+    display: inline-block;
+    color: white;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    font-weight: 550;
+}
+.heading{
+    height: 200px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 180px;
+}
+/**content**/
+.align{
+    text-align: center;
+}
+
+h1{
+    font-weight: 1000;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 18px;
+}
+.heading2{
+    font-size: 24px;
+}
+
+.search_div{
+    height: 57px;
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    height: 55px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.418);
+    border: 0.5px solid white;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 15px;
+}
+.button2{
+    height: 58px;
+    width: 200px;
+    background-color: rgba(250, 24, 24, 0.884);
+    border-radius: 4px;
+    font-size: 24px;
+    border: 2px solid rgba(250, 24, 24, 0.884);
+}
+.parts{
+    height: 550px;
+    background-color: black;
+    color: white;
+    border-top: 10px solid rgb(51, 50, 50);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.enjoy{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    height: 450px;
+    width: 600px;
+    background-image: url('image1.png');
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+.image2{
+    height: 450px;
+    width: 600px;
+    background-image: url('image2.png');
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.image3{
+    height: 450px;
+    width: 600px;
+    background-image: url('image3.png');
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.image4{
+    height: 450px;
+    width: 600px;
+    background-image: url('image4.png');
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/**footer**/
+.footer{
+    height: 900px;
+    background-color: black;
+    color: white;
+    border-top: 10px solid rgb(51, 50, 50);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.ques{
+    height: 80px;
+    width: 1000px;
+    background-color: rgb(41, 38, 38);
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 170px; 
+    padding-left: 35px;
+    font-size: 1.5rem;
+}
+
+.foot{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300px;
+}
+
+.foot2{
+    margin-top: 40px;
+}
+
+.sign_in{
+    margin-top: 20px;
+}
+
+i{
+    margin-right: 20px;
+}
+
+.query{
+    height: 500px;
+    background-color: black;
+    color: white;
+    border-top: 10px solid rgb(51, 50, 50);
+    display: block;
+    color: rgba(218, 216, 216, 0.747);
+    font-weight: 500;
+}
+
+.questions{
+    margin-left: 8.3rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+a{
+    color: rgba(218, 216, 216, 0.747);
+}
+
+.list{
+    height: 200px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+ul li{
+    margin-top: 15px;
+}
+
+.select{
+    margin-left: 8.5rem;
+    margin-top: 3rem;
+}
+
+.net{
+    margin-left: 8.5rem;
+    margin-top: 1.5rem; 
+}
